@@ -14,13 +14,13 @@ Welcome to my bookmark. 📚
 
 This is all, and hands-on. 🏁
 
-1.<a href="https://github.com/MariliseMorona/Playgrounds/swift/README.md" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> Swift</a><br>
-2.<a href="https://github.com/MariliseMorona/Playgrounds/kotlin/README.md" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> Kotlin</a><br> 
-3.<a href="https://github.com/MariliseMorona/Playgrounds/dart/README.md" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> Dart</a><br> 
-4.<a href="https://github.com/MariliseMorona/Playgrounds/java/README.md" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> Java</a><br> 
-5.<a href="https://github.com/MariliseMorona/Playgrounds/js/README.md" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> JS</a><br> 
-6.<a href="https://github.com/MariliseMorona/Playgrounds/c#/README.md" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> C#</a><br> 
-7.<a href="https://github.com/MariliseMorona/Playgrounds/python/README.md" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> Python</a><br>
+1.<a href="https://github.com/MariliseMorona/Playgrounds/tree/main/swift" target="blank" alt="Link de acesso aos conteúdos sobre Swift"> Swift</a><br>
+2.<a href="https://github.com/MariliseMorona/Playgrounds/tree/main/kotlin" target="blank" alt="Link de acesso aos conteúdos sobre Kotlin"> Kotlin</a><br> 
+3.<a href="https://github.com/MariliseMorona/Playgrounds/tree/main/dart" target="blank" alt="Link de acesso aos conteúdos sobre Dart"> Dart</a><br> 
+4.<a href="https://github.com/MariliseMorona/Playgrounds/tree/main/java" target="blank" alt="Link de acesso aos conteúdos sobre Java"> Java</a><br> 
+5.<a href="https://github.com/MariliseMorona/Playgrounds/tree/main/js" target="blank" alt="Link de acesso aos conteúdos sobre JavaScript"> JS</a><br> 
+6.<a href="https://github.com/MariliseMorona/Playgrounds/tree/main/c#" target="blank" alt="Link de acesso aos conteúdos sobre C#"> C#</a><br> 
+7.<a href="https://github.com/MariliseMorona/Playgrounds/tree/main/python" target="blank" alt="Link de acesso aos conteúdos sobre Python"> Python</a><br>
 
 note: this repository will be frequently updated !
 
