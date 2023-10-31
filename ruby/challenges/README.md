@@ -17,7 +17,7 @@ Exiba a variável PROD conforme exemplo abaixo, tendo obrigatoriamente um espaç
 9               PROD = 0
 
 
-▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/simpleMultiplication.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Média Final do Aluno na linguagem Kotlin."> Go to Challenge !</a><br>
+▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/simpleMultiplication.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Multiplicação Simples na linguagem Ruby"> Go to Challenge !</a><br>
 
 # Desafio:Esfera
 Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). A fórmula para calcular o volume é: (4/3) * pi * R3. Considere (atribua) para pi o valor 3.14159.
@@ -37,7 +37,7 @@ A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, 
 1523            VOLUME = 14797486501.627
 
 
-▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/ball.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Média Final do Aluno na linguagem Kotlin."> Go to Challenge !</a><br>
+▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/ball.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Esfera na linguagem Ruby"> Go to Challenge !</a><br>
 
 # Desafio:Coxinha de Bueno
 Em 2015 um novo record foi alcançado na competição de Coxinhas de Bueno de Andrada, onde Mônica mandou pra dentro 43 coxinhas em apenas 10 minutos, passando se antecessor que conseguiu comer, no mesmo tempo, 38 coxinhas em 2014.
@@ -59,7 +59,7 @@ Seu programa deve produzir uma única linha com um número racional representand
 840 11          76.36
 1 50            0.02
 
-▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/goodCoxinha.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Média Final do Aluno na linguagem Kotlin."> Go to Challenge !</a><br>
+▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/goodCoxinha.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Coxinha de Bueno na linguagem Ruby"> Go to Challenge !</a><br>
 
 # Desafio:Soma dois
 Crie um programa que verifique o número da entrada e some 2 a ele. Após essa operação, print o resultado no console com a seguinte frase: “O resultado foi:” sem as aspas.
@@ -74,7 +74,7 @@ A saída deverá ser a frase e em seguida o resultado.
 10              “O resultado foi: 12”     
 15              “O resultado foi: 17”
 
-▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/sumTwo.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Média Final do Aluno na linguagem Kotlin."> Go to Challenge !</a><br>
+▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/sumTwo.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Soma dois na linguagem Ruby"> Go to Challenge !</a><br>
 
 # Desafio:Temperatura amena
 Podemos dizer que até 25°C a temperatura está amena e gostosa e após esse valor já consideramos calor. Faça um programa que verifique se a temperatura é maior que 25°C e print no console a seguinte frase: “Está calor!”.
@@ -91,7 +91,7 @@ A saída deverá ser a frase descrita no desafio sem as aspas.
 26              “Está calor!”      
 30              “Está calor!” 
 
-▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/mildTemperatures.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Média Final do Aluno na linguagem Kotlin."> Go to Challenge !</a><br>
+▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/mildTemperatures.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Temperatura amena na linguagem Ruby"> Go to Challenge !</a><br>
 
 # Desafio:Qual número é o maior?
 Crie um programa que verifique, entre duas entradas, qual número é o maior e qual é o menor e print eles no console dizendo “O número X é o maior e o Y é o menor” substituindo X e Y pelas entradas.
@@ -106,4 +106,4 @@ A saída deverá ser a frase indicando qual número é o maior e qual é o menor
 5  6            “O número 6 é o maior e o 5 é o menor”       
 1000 100        “O número 1000 é o maior e o 100 é o menor” 
 
-▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/whichBiggestNumber.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Média Final do Aluno na linguagem Kotlin."> Go to Challenge !</a><br>
+▶ <a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/challenges/whichBiggestNumber.rb" target="blank" alt="Link de acesso ao código utilizado no desafio de Qual número é o maior na linguagem Ruby"> Go to Challenge !</a><br>
