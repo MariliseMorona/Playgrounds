@@ -14,7 +14,8 @@ Welcome to my Ruby bookmark. 📚
 
 This is all, and hands-on. 🏁
 
-
+a.<a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/syntaxWithExamples/poo/conceitos.rb" target="blank" alt="Link de acesso aos conteúdos de POO-Conceitos em Ruby."> POO - Conceitos</a><br>
+b.<a href="https://github.com/MariliseMorona/Playgrounds/edit/main/ruby/syntaxWithExamples/poo/esamples.rb" target="blank" alt="Link de acesso aos conteúdos de POO-Exemplos em Ruby."> POO - Exemplos</a><br>
 
 
 note: this repository will be frequently updated !
