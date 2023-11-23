@@ -7,7 +7,7 @@ import CoreGraphics
  INICIALIZADORES
  
  Sao metodos especiais que sao chamados no momento da instanciacao de um objeto.
- Usamos o metodo reservado init par criar um inicializador ou construtor.
+ Usamos o metodo reservado init para criar um inicializador ou construtor.
  Dentro dele nos devemos colocar todo o comportamento que queremos que ocorra no momento da instaciacao.
  
  */

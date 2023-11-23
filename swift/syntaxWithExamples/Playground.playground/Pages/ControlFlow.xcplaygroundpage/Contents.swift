@@ -53,7 +53,6 @@ for (_, numbers) in interestingNumbers {
     for number in numbers {
         if number > largest {
             largest = number
-            }
         }
     }
 }
@@ -63,7 +62,6 @@ for (_key, numbers) in interestingNumbers {
         if number > largest {
             largest = number
             key = _key
-            }
         }
     }
 }

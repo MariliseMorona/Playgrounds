@@ -18,12 +18,14 @@
         <page name='Struct'/>
         <page name='Enumerations'/>
         <page name='Extensions'/>
-        <page name='Cloruse'/>
         <page name='Protocols'/>
         <page name='TypeCasting'/>
         <page name='StringsAndCharacters'/>
         <page name='ControlFlow'/>
         <page name='DataStructures'/>
         <page name='Collections'/>
+        <page name='Closure'/>
+        <page name='ARC_CiclosDeReferencia'/>
+        <page name='ViewControllerLifeCycle'/>
     </pages>
 </playground>
