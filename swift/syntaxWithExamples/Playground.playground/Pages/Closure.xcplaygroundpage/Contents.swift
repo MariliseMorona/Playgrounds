@@ -3,17 +3,25 @@
 import Foundation
 
 /**
- CLOSURE
+ CLOSURE ou CALLBACKS
  
+ Sao um tipo especial de funcao.
  Sao blocos auto-contidos que podem ser reaproveitados.
  Resumindo, closures sao como variaveis que guardam codigos.
  Sao como funcoes alocadas em variaveis.
  
+ Bloco de funcionalidade onde se pode passar ele por argumento na funcoa ou armazenar propriedade do objeto.
+ 
+ Podem ser utilizadas como funcoes de ordem superior (classificar ou filtrar uma lista), ou ainda, como manipuladores de conclusao para chamar de volta ao final de uma longa tarefa.
+ 
+ Toda funcao é uma closure, mas nem toda closure é uma funcao.
  */
 
 //Criando uma closure
 
-let myNameClosure = { (name: String) -> Void in
+// in => marca o fim do parametro e retorno do tipo
+let myNameClosure = {
+    (name: String) -> Void in
         print("Ola meu nome é \(name)")
 }
 
@@ -295,3 +303,92 @@ let newGroupAdults = people.filter({ person in
     return person.age > 18
 })
 print(newGroupAdults)
+
+
+//  Closure possui dois atributos: escaping e nonescaping
+/**
+ @nonescaping
+ quando vc recebe o callback e executa ele dentro do contexto,.
+
+ @escaping
+ Quando o fechamento é passado como um argumento para a funcao, mas é chamada após o retorno da funcao, ou seja ela é assincrona.
+ O callback é retido na inscatncia, náo é necessariamente um strong, ele segura a sessao ate terminar o bloco.
+ 
+
+ Voce pode armazenar o fechamento em uma variavel fora da funcao.
+ Por exemplo: funcoes que iniciam uma operacao assincrona adotam um argumento de fechamento como manipulador de conclusao. A funcao retorna apos o inicio da operacao, mas o fechamento não é chamado ate que a operacao seja concluida.
+ 
+ */
+
+var completionHandlers: [() -> Void] = []
+func someFunctionWithEscapingClosure(completionHandler: @escaping () -> Void) {
+    completionHandlers.append(completionHandler)
+}
+
+class Service {
+    
+    private let action: (String) -> Void
+    
+    init(action: @escaping (String) -> Void){
+        self.action = action
+    }
+    
+    
+    func retornandoNoMesmoBloco(callback: () -> Void) {
+        for i in 0...50 {
+            print("i = \(i) sincrono")
+        }
+        callback()
+    }
+    
+    func retornandoDepoisDoBloco(callback: @escaping() -> Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
+            for i in 0...50 {
+                print(i)
+            }
+            callback()
+        }
+    }
+    
+    func retornandoDepoisDoBlocoDeNovo(callback: @escaping() -> Void) {
+        for i in 0...50 {
+            print("i = \(i)")
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
+            callback()
+        }
+    }
+    
+    func retornandoDepoisDoBlocoDeNovoComParametro(callback: @escaping(Int) -> Void) {
+        for i in 0...50 {
+            print("i = \(i) com parametro")
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
+            callback(1000)
+        }
+    }
+}
+
+let service = Service() {
+    index in
+    print("ation esta rodando com o index \(index)")
+}
+
+func executaSucesso(_ value: Int) {
+    print("deu sucesso")
+}
+
+service.retornandoNoMesmoBloco {
+    print("sucesso no sincrono")
+}
+
+service.retornandoDepoisDoBloco {
+    print("sucesso")
+}
+
+service.retornandoDepoisDoBlocoDeNovo {
+    print("sucesso tbm")
+}
+
+service.retornandoDepoisDoBlocoDeNovoComParametro(callback: executaSucesso(_:))
+

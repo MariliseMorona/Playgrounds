@@ -5,8 +5,9 @@ import Foundation
 /**
  FUNCOES
  Sao blocos de codigo associados a um nome que sera executado toda vez que for acionado (chamado)
- 
  As funcoes sao compostas por duas etapas, a de declaracao e a de chamada/ invocacao.
+ 
+ As funcoes em swift podem receber valores e retornar dados, serem atribuidas a variaveis, passar informacoes para funcoes e ate mesmo retornar outras funcoes.
  */
 
 
@@ -129,3 +130,24 @@ func consonant(text: String) -> String{
 let text = "Essa string tem algumas vogais."
 print(vowels(text: text))
 print(consonant(text: text))
+
+
+// copiando funcoes
+/**
+ Ao usar var greetCopy = greetUser voce estara copiando a funcao para a variavel greetCopy,
+ mas se voce utilizar var greetCopy = greetUser( ) voce estara atribuindo a variaver greetCopy o valor da funcao
+ */
+
+func greetUser() {
+    print("Funcao a ser copiada.")
+}
+
+greetUser()
+
+var greetCopy = greetUser
+greetCopy()
+// o que seria o mesmo que escrever:
+// var greetCopy: () -> Void = greetUser
+/**
+ Void quer dizer que a funcao nao retorna nada
+ */
