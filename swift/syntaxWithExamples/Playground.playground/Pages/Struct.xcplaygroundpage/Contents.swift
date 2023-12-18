@@ -4,7 +4,7 @@ import Foundation
 import Darwin
 
 /**
- STRUCU
+ STRUCT
  
  Sao blocos de construcao flexiveis para criacao de partes de programas.
  Com estruturas conseguimos criar tipos proprios, personalizados e resproveitaveis.

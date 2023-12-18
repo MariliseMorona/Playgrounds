@@ -2,12 +2,10 @@
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='Operators'/>
-        <page name='Arrays'/>
         <page name='Tuplas'/>
-        <page name='Dictionary'/>
         <page name='VariableScope'/>
         <page name='Sucession'/>
-        <page name='Polimorphism'/>
+        <page name='POO'/>
         <page name='Conditional'/>
         <page name='RepeatingStructures'/>
         <page name='Functions'/>
@@ -27,5 +25,7 @@
         <page name='Closure'/>
         <page name='ARC_CiclosDeReferencia'/>
         <page name='ViewControllerLifeCycle'/>
+        <page name='DataStructs'/>
+        <page name='ReferenceType'/>
     </pages>
 </playground>

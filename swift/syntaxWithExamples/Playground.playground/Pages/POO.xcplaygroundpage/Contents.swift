@@ -78,7 +78,7 @@ class Warrior: Adventurer {
         super.init(attack: 150, deffense: 100)
         self.type = "Guerreiro"
     
-    //usamos a palavra reservada override antes do metodo quando queremos sobrescrever o comportamento"
+    //usamos a palavra reservada overide antes do metodo quando queremos sobrescrever o comportamento"
     }
     
         override func attack() -> Int{
