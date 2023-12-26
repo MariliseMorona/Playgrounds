@@ -2,8 +2,6 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
-
 //: [Next](@next)
 let individualScore = [75, 43, 103, 87, 12]
 var teamScore = 0
@@ -73,3 +71,10 @@ var n = 2
 while n < 100 {
     n *= 2
 }
+
+var cars = ["Gol", "Ferrari", "Porche", "Uno"]
+var carIndex = 0
+repeat {
+    print("car: \(cars[carIndex])")
+    carIndex += 1
+} while carIndex < cars.count

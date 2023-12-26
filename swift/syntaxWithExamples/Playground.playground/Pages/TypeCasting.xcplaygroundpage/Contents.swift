@@ -7,7 +7,7 @@ import CoreGraphics
  Type Casting
  
  
-Metodo fornecido pelo swift para checar o tipo de uma instancia e de tratar como um tipo diferente de super classe ou sub classe.
+ Metodo fornecido pelo swift para checar o tipo de uma instancia e de tratar como um tipo diferente de super classe ou sub classe.
  Existem dois operadores para lidar com type casting. O operador is e o operador as.
  
  */
